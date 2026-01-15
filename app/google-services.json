@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499602552326",
+    "project_id": "moodmovieapp-7bad8",
+    "storage_bucket": "moodmovieapp-7bad8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499602552326:android:9c30e6f04b3fe309de3587",
+        "android_client_info": {
+          "package_name": "com.chernykh.moodmovieapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrt9jXE2dnXkawYCwAKMqSxtPy23iMPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

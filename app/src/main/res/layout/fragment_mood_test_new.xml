@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/app_background2"
+    android:gravity="center_horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вопрос 1 из 5"
+        android:textSize="16sp"
+        android:textColor="#666"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Как вы себя чувствуете сегодня?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😊 Отлично"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🙂 Хорошо"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#8BC34A"/>
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😐 Нормально"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FFC107"/>
+
+    <Button
+        android:id="@+id/btnOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😔 Не очень"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:backgroundTint="#2196F3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите вариант, который лучше всего описывает ваше состояние"
+        android:textSize="14sp"
+        android:textColor="#666"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
